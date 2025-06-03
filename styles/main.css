@@ -74,15 +74,22 @@
 }
 .banner {
   background-color: var(--background);
+  background-color: var(--background);
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: 100vh; /* full viewport height */
+  box-sizing: border-box; /* include padding in size */
+  padding: 20px; /* optional padding */
 }
 .banner img {
-  width: 50%;
+   width: 50%;
   background-color: var(--background);
+  margin-top: 20px; /* consistent margin */
+  max-height: 70vh; /* limit max height */
+  object-fit: contain; /* maintain aspect ratio */
 }
 .banner p {
   color: #fff;
@@ -118,11 +125,14 @@
     padding: 15px 25px;
   }
   .banner {
-    height: 115vh;
+    height: auto; /* allow flexible height */
     width: 90%;
+    padding: 10px;
   }
   .banner img {
-    margin-top: 150px;
+     margin-top: 50px; /* smaller margin for smaller screens */
+    width: 90%;
+    max-height: 50vh;
   }
   .home {
     flex-wrap: wrap;

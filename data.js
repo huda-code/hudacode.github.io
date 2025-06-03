@@ -1,5 +1,5 @@
 export const home = {
-    domain: "hudacode.github.io",
+    domain: "hudahajira.com",
     name: "Hajira",
     subtitle: "Full-stack developer turning ideas into impactful digital realities.",
     email: "code.huda@gmail.com",
