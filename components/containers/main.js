@@ -1,6 +1,18 @@
 import React from 'react';
-import SocialIcons from '../core/SocialIcons';
+// import SocialIcons from '../core/SocialIcons';
 import { home, socials } from '../../data';
+
+const SocialIcons = ({ link, icon, target }) => {
+    return (
+      <a
+        href={link}
+        target={target}
+        rel={target === "_blank" ? "noopener noreferrer" : undefined}
+      >
+        <i className={icon}></i>
+      </a>
+    );
+  };
 
 export default function Main() {
     const domain = home.domain.split('.');
@@ -28,22 +40,25 @@ export default function Main() {
                     </a>
                 </div>
                 <div className="icons">
-                    <SocialIcons
-                        link={'https://twitter.com/' + socials.twitter}
-                        icon={'fab fa-twitter'}
-                    />
-                    <SocialIcons
-                        link={'https://github.com/' + socials.github}
-                        icon={'fab fa-github'}
-                    />
-                    <SocialIcons
-                        link={'https://www.instagram.com/' + socials.instagram}
-                        icon={'fab fa-instagram'}
-                    />
-                </div>
-            </div>
+          <SocialIcons
+            link={'https://twitter.com/' + socials.twitter}
+            target="_blank"
+            icon="fab fa-twitter"
+          />
+          <SocialIcons
+            link={'https://github.com/' + socials.github}
+            target="_blank"
+            icon="fab fa-github"
+          />
+          <SocialIcons
+            link={'https://www.instagram.com/' + socials.instagram}
+            target="_blank"
+            icon="fab fa-instagram"
+          />
+        </div>
+      </div>
             <div className="banner">
-                <img src="assets/undraw_coding_6mjf.svg" alt="illustration" />
+                <img src="assets/maain.svg" alt="illustration" />
                 <p>
                     {home.desc}
                     <br />

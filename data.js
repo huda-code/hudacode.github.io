@@ -1,95 +1,170 @@
 export const home = {
-    domain: "jayhawk.github.io",
-    name: "Anubhav",
-    subtitle: "A Freelance Full-stack Engineer from India.",
-    email: "anubhavthrilling24@gmail.com",
+    domain: "hudacode.github.io",
+    name: "Hajira",
+    subtitle: "Full-stack developer turning ideas into impactful digital realities.",
+    email: "code.huda@gmail.com",
     resumeLink:
-        "https://github.com/jayhawk24/developerFolio/blob/9b4c2257ec56b4121a4a82545755cd1f610f7659/Anubhav's%20Resume.pdf",
-    desc: "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+         "assets/HajiraResume.pdf",
+    desc: "A passionate Full Stack Developer 🚀 with strong startup and AI experience. Skilled in building web apps with MERN stack. Always excited to create solutions that make a difference."
 };
 
 export const socials = {
     // Only usernames.
-    twitter: "jayh4wk",
-    github: "jayhawk24",
-    instagram: "__jayhawk__"
+    twitter: "hudahajira",
+    github: "huda-code",
+    instagram: "huda.code"
 };
 
 export const about = {
     aboutMe:
-        "🙏 Namaste, I am Anubhav Gupta from Varanasi, India I am a Full Stack Developer at Gigwalla. Apart from coding, there are a lot of activities I love to do like...",
-    hobbies: ["Basketball", "Chess", "Hiking", "Swimming"],
-    quote: "Write code that changes Lives...",
+        "Hi, I am Hajira Sultana, a full-stack developer and entrepreneur with a passion for building impactful startups and AI-powered applications. With a Master’s in Cybersecurity and extensive experience in MERN stack development, I combine technical expertise and business insight to create scalable, innovative solutions. I have successfully founded two startups and deployed AI projects on Hugging Face.",
+    hobbies: ["Startup Building", "AI & Machine Learning", "Web Development", "Reading Tech Blogs, crochet, cross stitching, Calligraphy "],
+    quote: "Building the future, one line of code at a time.",
     skills: [
         "nextjs",
-        "react",
-        "redux",
-        "python",
-        "bash",
-        "cplusplus",
-        "css3",
-        "sass",
-        "typescript",
-        "docker",
-        "django",
-        "html5",
-        "git",
-        "javascript",
-        "jquery",
-        "mongodb",
-        "nodejs",
-        "php"
-    ],
-    tools: ["github", "photoshop", "vim", "visualstudio", "linux"]
+  "react",
+  "nodejs",
+
+  "mongodb",
+  "python",
+
+  "javascript",
+  "html5",
+  "css3",
+  "docker",
+  "git",
+  "typescript",
+  "linux",
+  "bash",
+  "cplusplus",
+  "sass",
+  "django",
+  "jquery",
+  "php"
+],
+    tools: ["github",
+    "visualstudio",
+    "docker",
+    "linux",
+    "postman",
+    "huggingface",
+    "wireshark",
+    "burpsuite",
+    "nmap",
+    "metasploit",
+   
+]
 };
 
 export const projects = [
     {
-        title: "Book Naav",
-        imgSrc: "assets/booknaav.png",
-        desc: "Book boats easily in varanasi, Support local boatmen.",
-        link: "https://github.com/jayhawk24/booknav-frontend"
+        title: "Real Time Phishing Detection and Preventive Education System",
+        imgSrc: "assets/email.png",
+        desc: " A real-time AI system to detect and prevent phishing emails.",
+        link: "https://huggingface.co/spaces/HudaHajira/Detect_Email_Phishing "
     },
     {
-        title: "Crispy",
-        imgSrc: "assets/crispy.png",
-        desc: "Shorten links blazingly fast, Fully serverless.",
-        link: "https://github.com/jayhawk24/crispy"
+        title: "Glow-Ai",
+        imgSrc: "assets/glowai.png",
+        desc: "An AI-driven skin analyzer to know your skin type",
+        link: "https://huggingface.co/spaces/HudaHajira/glow-ai"
     },
     {
-        title: "V80 Stocks",
-        imgSrc: "assets/v80.jpg",
-        desc: "List of stocks below 200 DMA which are in Vivek Singhal's v40 and v40 next stocks list.",
-        link: "https://github.com/jayhawk24/v80"
+        title: "AskMyDoc",
+        imgSrc: "assets/askmedoc.png",
+        desc: "An AI tool that reads documents and answers questions based solely on their content.",
+        link: "https://huggingface.co/spaces/HudaHajira/Auditor"
     },
     {
-        title: "E Store 24",
-        imgSrc: "assets/estore.png",
-        desc: "The website resembles a real store and you can add products to your cart and pay for them.",
-        link: "https://github.com/jayhawk24/E-store"
+        title: "Seed-Lab 2.0 Projects",
+        imgSrc: "assets/seedlabs.png",
+        desc: "Cybersecurity projects covering ciphers, buffer overflow, TCP attacks, CSRF/XSS, SQL injection, and meltdown attacks.",
+        link: "https://github.com/huda-code/seed-lab-2.0-projects"
     },
     {
-        title: "Blood Bank",
-        imgSrc: "assets/donation.jpg",
-        desc: "Web application for hospitals to manage their blood bank and users who need blood. Made with PHP and MySQL.",
-        link: "https://github.com/jayhawk24/blood_bank"
+        title: "Tasky - The Task Manager",
+        imgSrc: "assets/taskmana.jpg",
+        desc: "A MERN stack task management app with reminders, OTP-secured registration, and email notifications.",
+        link: "https://github.com/huda-code/tasky"
     },
     {
-        title: "Ora Studio",
-        imgSrc: "assets/orastudio.png",
-        desc: "Architect Organisation Website. It is astatic website but with a great userinterface and you can check it out.",
-        link: "https://github.com/jayhawk24/orastudio"
+        title: "Progress Management System",
+        imgSrc: "assets/progress.png",
+        desc: "Tracks student progress by integrating Google Sheets data and displaying interactive charts for teachers and parents.",
+        link: "https://github.com/huda-code/Capstone-Project/tree/master"
     },
     {
-        title: "Zen Social",
-        imgSrc: "assets/zensocial.png",
-        desc: "Social App made with django. You can post your thoughts and ideas anonymously and also create groups and post there.",
-        link: "https://github.com/jayhawk24/zensocial"
+        title: "Book Management System",
+        imgSrc: "assets/book.png",
+        desc: "A web app to manage book inventory and library operations efficiently.",
+        link: "https://github.com/huda-code/book-management"
     },
     {
-        title: "Take Turns",
-        imgSrc: "assets/takeTurns.png",
-        desc: "Easy Friendy Management, register your roommates, and it will simply show who's turn it is to carry out a task job.",
-        link: "https://github.com/jayhawk24/take-turns"
+        title: "Brand New Me",
+        imgSrc: "assets/brandnewme.png",
+        desc: "Personal wellness coach app focused on building sustainable healthy habits tailored to individual needs",
+        link: "https://huda-code.github.io/brandme/"
+    },
+    {
+        title: "AI Shayari",
+        imgSrc: "assets/shayariai.png",
+        desc: "Generates personalized shayari (poetry) based on your mood using AI.",
+        link: "https://huda-code.github.io/AIShayari/"
+    },
+    {
+        title: "Midwest Pumpkins",
+        imgSrc: "assets/midwestpumpkin.png",
+        desc: "Seasonal responsive website celebrating pumpkins with interactive elements, animations, and theme switching.",
+        link: "https://github.com/huda-code/Midwest-Pumpkins"
+    },
+    {
+        title: "EdVenture Park ERP System",
+        imgSrc: "assets/evpp.png",
+        desc: "An ERP tool for managing operations at EdVenture Park with admin dashboard for handling applications and emails.",
+        link: "https://github.com/huda-code/X-hackathon"
+    },
+    {
+        title: "Weather API",
+        imgSrc: "assets/weatherapi.png",
+        desc: "Weather app using OpenWeather API to fetch real-time weather and 5-day forecast for any city or location.",
+        link: "https://github.com/huda-code/WeatherAPI"
+    },
+   
+    {
+        title: "Base64 Converter",
+        imgSrc: "assets/base64.png",
+        desc: "Simple web app for encoding and decoding Base64 strings easily.",
+        link: "https://huda-code.github.io/B64/"
+    },
+    {
+        title: "Password Generator CLI",
+        imgSrc: "assets/generatepassword.png",
+        desc: "Command-line tool to generate secure random passwords.",
+        link: "https://github.com/huda-code/CLI/tree/master/Generate%20Password"
+    },
+    {
+        title: "JavaScript Mini Projects",
+        imgSrc: "assets/jsmini.png",
+        desc: "A collection of beginner-friendly JavaScript projects covering fundamentals and frameworks like React and Vue.",
+        link: "https://github.com/huda-code/JavaScript-Mini-Projects"
+    },
+   
+    {
+        title: "Snake Game",
+        imgSrc: "assets/snakegame.png",
+        desc: "Classic snake game with DOM-based controls and sound effects.",
+        link: "https://huda-code.github.io/Snake-Game./"
+    },
+    {
+        title: "Font Converter",
+        imgSrc: "assets/fontconverter.png",
+        desc: "Web tool for converting fonts between formats.",
+        link: "https://huda-code.github.io/Font-converter/"
+    },
+    {
+        title: "Treasure Hunt",
+        imgSrc: "assets/treasurehut.png",
+        desc: "An interactive treasure hunt game.",
+        link: "https://huda-code.github.io/Treasure-hunt/"
     }
 ];

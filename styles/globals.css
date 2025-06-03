@@ -19,11 +19,18 @@ a {
   box-sizing: border-box;
 }
 :root {
-  --mainFont: "Oswald", sans-serif;
-  --secFont: "Roboto Condensed", sans-serif;
+  --mainFont: "Montserrat", sans-serif;
+  --secFont:  "Open Sans", sans-serif;
 
-  --lightroyalblue: #95a8df;
-  --backblue: #3b3c4e;
-  --background: #0e0c38;
-  --back2: #211f61;
+      /* Light text */
+
+--lightroyalblue: #4a90e2;
+--backblue:  #f5a623;  
+--background:    #292929; 
+--back2: #f0f0f0;
+--light: #292929; 
 }
+/* --lightroyalblue: #4a90e2; */
+/* --backblue:  #f5a623;   */
+/* --background: #27283b;  */
+/* --back2: #f0f0f0; */
